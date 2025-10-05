@@ -8,10 +8,10 @@ from PyQt5 import QtCore,QtGui,QtWidgets
 from PyQt5.QtWidgets import QTableWidgetItem
 from PyQt5.QtGui import QPixmap
 
-from QtMusic.ui.designmainwindow import Ui_MainWindow
-from QtMusic.src.dialog import DialogWindow
-from QtMusic.src.data import Data
-from QtMusic.src import bytes_to_pixmap
+from ui.designmainwindow import Ui_MainWindow
+from src.dialog import DialogWindow
+from src.data import Data
+from src import bytes_to_pixmap
 
 
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):

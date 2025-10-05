@@ -2,9 +2,9 @@ import sys
 import os
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import Qt
-from QtMusic.ui.designdialog import Ui_Dialog
-from QtMusic.src.data import Data
-from QtMusic.src import bytes_to_pixmap, pixmap_to_bytearray
+from ui.designdialog import Ui_Dialog
+from src.data import Data
+from src import bytes_to_pixmap, pixmap_to_bytearray
 
 class DialogWindow(QtWidgets.QDialog, Ui_Dialog):
     def __init__(self):
